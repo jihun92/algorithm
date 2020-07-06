@@ -12,7 +12,7 @@ print("shuffle list:", end=' ')
 print(m_list)
 
 ########## Start Sort algorithm ##########
-tmp = 0;
+tmp = 0
 for i in range(size_m_list):
     for j in range((size_m_list-1)-i):
         if m_list[j] > m_list[j+1]:
